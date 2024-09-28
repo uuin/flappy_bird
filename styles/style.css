@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Press Start 2P', arial;
+    font-size: 4vmin;
+    line-height: 1vmin;
+    color: 	#4cf603;
+    background-color: 	#ffffff
+}
+
+.canvas-background {
+    position: relative;
+    background-color: 	#2320ff;
+    width: 580px;
+    height: 90px;
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    margin: 20px auto;
+    margin-bottom: 1vmin;
+    column-gap: 50px;
+}
+
+.score-board_text {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+#start {
+    position: absolute;
+    top: 180%;
+    left: 30%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 220px;
+    border: 4px solid white;
+    font-size: 37px;
+    font-family: inherit;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgb(166, 196, 0);
+    outline: none;
+}
+
+#start:hover {
+    color: rgb(255, 255, 255);
+    background-color: #ff0000;
+}
+
+
